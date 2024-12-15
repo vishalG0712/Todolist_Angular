@@ -1,0 +1,46 @@
+.about-container {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .about-container h1 {
+    color: #4facfe;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .about-container h3 {
+    color: #333;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  
+  .about-container p,
+  .about-container ul {
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
+  .about-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-container ul li {
+    margin: 10px 0;
+  }
+  
+  .about-container i {
+    margin-right: 8px;
+  }
+  
+  .contact-section a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-section a:hover {
+    text-decoration: underline;
+  }
+  

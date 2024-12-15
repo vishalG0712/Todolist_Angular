@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+/* Navbar Gradient Background */
+.bg-gradient {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .nav-link {
+    color: white;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #00f2fe;
+    font-weight: bold;
+  }
+  
+  /* Main Content Padding */
+  .content-container {
+    background: #f8f9fa;
+    min-height: 80vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background-color: #222;
+    color: #bbb;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer a {
+    color: #00f2fe;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

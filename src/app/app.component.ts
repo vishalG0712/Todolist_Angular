@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my_todo_list';
+
+  constructor (){
+  //   setTimeout(() => {
+  //     this.title="Vishal ";
+  //   },2000 );
+  }
 }
